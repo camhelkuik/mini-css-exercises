@@ -5,14 +5,20 @@ html {
   box-sizing: inherit;
 }
 
-.float {
+.float h4{
   float: left;
+  width: 75%;
+  margin: auto;
 }
 
-.float h1 p {
+.float p{
+  float: left;
   width: 75%;
+  margin: auto;
 }
 
 .float img {
+  float: left;
   width: 25%;
+  padding-left: 10px;
 }
