@@ -4,3 +4,33 @@ html {
 *, *:before, *:after{
   box-sizing: inherit;
 }
+
+body{
+  background-color: black;
+  color: #7C7B81;
+}
+
+body h1{
+  color: white;
+}
+
+
+body img {
+  width: 300px;
+}
+
+.float h3{
+  margin-left: 26px;
+  font-size: 30px;
+}
+
+.float{
+  float: left;
+  width: 50%;
+}
+
+#empty {
+  background-color: black;
+  width: 300px;
+  height: 203px;
+}
