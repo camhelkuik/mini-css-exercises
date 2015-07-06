@@ -4,3 +4,29 @@ html {
 *, *:before, *:after{
   box-sizing: inherit;
 }
+
+.float {
+  float: left;
+  width: 100%;
+}
+
+.name {
+  float: left;
+  width: 30%;
+  margin-right: -50px;
+}
+
+#email {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#email input{
+  width: 269px;
+}
+
+.submit {
+  font-size: 13px;
+  font-weight: bold;
+  border: 1px solid;
+}
