@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+.float {
+  float: left;
+  margin-right: 35px;
+}
+
+.float h4{
+  color: #2AACE3;
+  margin-bottom: -15px;
+}
+
+.float h3{
+  border-bottom: 2px solid #C8C8C8;
+  padding-bottom: 40px;
+}
+
+.rectangle {
+  width: 180px;
+  height: 81px;
+  background-color: #2AACE3;
+  color: white;
+  text-align: center;
+  padding-top: 1px;
+  border-radius: 3px;
+}
+
+.rectangle h3{
+  border-bottom: none;
+}
+
+.triangle{
+  	width: 0; 
+  	height: 0; 
+  	border-top: 10px solid transparent;
+  	border-bottom: 10px solid transparent;
+    margin-left: 150px;
+    margin-top: -20px;
+  	border-left: 10px solid white;
+}
